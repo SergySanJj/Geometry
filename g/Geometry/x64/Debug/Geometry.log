@@ -1,0 +1,5 @@
+﻿  PointSet.cpp
+  main.cpp
+f:\work\git\geometry\geometry\g\geometry\main.cpp(26): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  Geometry.vcxproj -> F:\work\Git\Geometry\Geometry\g\x64\Debug\Geometry.exe

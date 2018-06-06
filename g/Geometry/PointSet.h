@@ -15,12 +15,18 @@ struct Point
 	
 	int x = 0;
 	int y = 0;
+
+	bool cmp(Point& pt)
+	{
+		return (pt.x == x && pt.y == y);
+	}
 };
 
 class PointSet
 {
 public:
 	PointSet(int n, std::string path) :N(n) { points.resize(n); coordinatesInput(path); }
+	PointSet(int n) :N(n) { points.resize(n); }
 	~PointSet();
 
 	void coordinatesInput(std::string path);
@@ -31,6 +37,13 @@ public:
 		return points;
 	}
 
+	void setPoints(std::vector<Point> pts)
+	{
+		for (int i = 0; i < pts.size(); i++)
+		{
+			points[i] = pts[i];
+		}
+	}
 
 	int orr(Point pp, Point q, Point r)
 	{
