@@ -1,0 +1,3 @@
+﻿  PointSet.cpp
+f:\work\git\geometry\geometry\pointset.cpp(42): warning C4018: <: несоответствие типов со знаком и без знака
+  Geometry.vcxproj -> F:\work\Git\Geometry\Debug\Geometry.exe
